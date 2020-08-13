@@ -1,0 +1,184 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* titile-section */
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphone {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+/* navigation-bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  ;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.Download-button {
+  margin: 5% 3% 6% 0;
+}
+
+/* features-section */
+.columns {
+  padding: 0 100px 125px 100px;
+}
+
+.specs-icon {
+  font-size: 75px;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.specs-icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding-top: 125px;
+  position: relative;
+}
+
+.specs {
+  color: #8f8f8f;
+}
+
+.specs1 {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+}
+
+/* testimonial-section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-description {
+  font-family: 'Lemonada', cursive;
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.price-column {
+  padding: 3% 2%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.action {
+  font-family: Montserrat;
+  padding: 100px 50px 40px 50px;
+  line-height: 1.5;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+/* download section */
+#cta {
+  padding: 0 110px 40px;
+}
+
+/* footer section */
+#footer {
+  margin: 7% 15%;
+}
+
+.outro {
+  color: #8f8f8f;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+/* css media query */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
